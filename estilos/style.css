@@ -37,9 +37,6 @@ header > h2{
     padding-bottom: 30px;
 }
 
-main{
-    background-color: purple;
-}
 .links{
     text-decoration: none;
     color: var(--cor-branca);
@@ -50,16 +47,16 @@ main{
 
 section{
     font-family: var(--fonte-poema);
-    font-size: 3vw;
-    padding: 100px 0px 150px 30px;
+    font-size: 3vw; /*Tive que colocar em vw pra ver se resolve o problema das letras ficaram pequenas no celular, pq tava bem paia pra ler no cell de pai*/
+    font-weight: normal;
+    padding: 100px 0px 150px 30px
 }
 
 .fundo-branco{
-    background-color: white;;
+    background-color: white;
 }
 
-.imagem{
-    background-color: gray;
+.imagem{ /*Removi a cor cinza de fundo pq bugs de carregamento vão passar mais despercebidos*/
     box-shadow: inset 1px 1px 10px 1px black;
 }
 .imagem > p{
@@ -84,14 +81,14 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 60vh;
+    min-height: 60vh; /*Só com o padding, no celular de pai, a imagem da joaninha não carregava direito e acabava não sendo tão bonito de se ver, to tentando resolver esse problema*/
     background-position: center center;
 }
 
 footer{
     background-color: var(--cor-preta);
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1.3vw;
     color: var(--cor-branca);
     text-align: center;
 }

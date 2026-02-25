@@ -47,9 +47,9 @@ header > h2{
 
 section{
     font-family: var(--fonte-poema);
-    font-size: 3vw; /*Tive que colocar em vw pra ver se resolve o problema das letras ficaram pequenas no celular, pq tava bem paia pra ler no cell de pai*/
+    font-size: 5vw; /*Tive que colocar em vw pra ver se resolve o problema das letras ficaram pequenas no celular, pq tava bem paia pra ler no cell de pai*/
     font-weight: normal;
-    padding: 100px 0px 150px 30px
+    padding: 100px 0px 100px 30px
 }
 
 .fundo-branco{
@@ -73,7 +73,7 @@ section{
     background-size: cover;
     background-attachment: fixed;
     min-height: 60vh;
-    background-position: center center;
+    background-position: 85%;
 }
 
 #img2{
@@ -82,13 +82,16 @@ section{
     background-size: cover;
     background-attachment: fixed;
     min-height: 60vh; /*Só com o padding, no celular de pai, a imagem da joaninha não carregava direito e acabava não sendo tão bonito de se ver, to tentando resolver esse problema*/
-    background-position: center center;
+    background-position: 85%;
 }
 
 footer{
     background-color: var(--cor-preta);
     padding: 10px;
-    font-size: 1.3vw;
+    font-size: 2vw;
     color: var(--cor-branca);
     text-align: center;
+}
+footer > p:nth-of-type(2){ /*Segundo paragrafo filho do footer (meu nome lá no site)*/
+    font-size: 1.8vw;
 }

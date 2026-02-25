@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte-titulo: "Passion One", cursive;
+    --fonte-poema: "Sriracha", cursive;
+    --fonte-normal: 'Verdana', sans-serif;
+    --cor-preta: #000000;
+    --cor-branca: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+    font-family: var(--fonte-titulo);
+    min-height: 200px;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-family: var(--fonte-titulo);
+    font-size: 9vw;
+    font-weight: normal;
+}
+
+header > h2{
+    font-family: var(--fonte-normal);
+    font-weight: normal;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+main{
+    background-color: purple;
+}
+.links{
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonte-poema);
+    font-size: 3vw;
+    padding: 100px 0px 150px 30px;
+}
+
+.fundo-branco{
+    background-color: white;;
+}
+
+.imagem{
+    background-color: gray;
+    box-shadow: inset 1px 1px 10px 1px black;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.493);
+    line-height: 2em;
+    width: fit-content;
+    color: var(--cor-branca);
+    padding: 10px;
+}   
+
+#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: center center;
+}
+
+#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: center center;
+}
+
+footer{
+    background-color: var(--cor-preta);
+    padding: 10px;
+    font-size: 1.2em;
+    color: var(--cor-branca);
+    text-align: center;
+}

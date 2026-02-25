@@ -47,7 +47,7 @@ header > h2{
 
 section{
     font-family: var(--fonte-poema);
-    font-size: 5vw; /*Tive que colocar em vw pra ver se resolve o problema das letras ficaram pequenas no celular, pq tava bem paia pra ler no cell de pai*/
+    font-size: 5vw; /*Tive que colocar em vw pq resolve o problema das letras ficaram pequenas no celular, em "em" as letras estavam ficando pequenas demais*/
     font-weight: normal;
     padding: 100px 0px 100px 30px
 }
@@ -73,7 +73,7 @@ section{
     background-size: cover;
     background-attachment: fixed;
     min-height: 60vh;
-    background-position: 85%;
+    background-position: 85%; /*Deixou o foco da imagem, no mobile, a joaninha com o centro da flor, quase como no computador*/
 }
 
 #img2{
@@ -81,8 +81,8 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 60vh; /*Só com o padding, no celular de pai, a imagem da joaninha não carregava direito e acabava não sendo tão bonito de se ver, to tentando resolver esse problema*/
-    background-position: 85%;
+    min-height: 60vh;
+    background-position: 85%; 
 }
 
 footer{
